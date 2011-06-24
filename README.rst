@@ -23,4 +23,4 @@ where `bin` is the directory containing the command you want to run, `command` i
 Usage
 =====
 
-The usage is fairly simple, simple run `bin\svn` rather than svn. If it's a `commit` or `ci` command, it will execute the command you specified, after a short delay in case of accidental commit. Any other command is passed directly through to the SVN binary.
+The usage is fairly simple, simple run `bin\\svn` rather than svn. If it's a `commit` or `ci` command, it will execute the command you specified, after a short delay in case of accidental commit. Any other command is passed directly through to the SVN binary.
