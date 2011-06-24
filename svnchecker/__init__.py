@@ -5,7 +5,9 @@ import sys
 
 def main(args):
 
-    if sys.argv[1] == 'commit' or sys.argv[1] == 'ci':
+    if len(sys.argv) == 1:
+        call(['svn'])
+    elif sys.argv[1] == 'commit' or sys.argv[1] == 'ci':
         print "Waiting 10 seconds in case of accidental checkin oops"
         sleep(10)
 
